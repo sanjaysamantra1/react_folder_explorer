@@ -26,6 +26,28 @@
       "name": "src",
       "isFolder": true,
       "items": [
+        {
+          "name": "components",
+          "isFolder": true,
+          "items": [
+            {
+              "name": "header",
+              "isFolder": true,
+              "items": [
+                { "name": "header.css", "isFolder": false },
+                { "name": "header.js.css", "isFolder": false }
+              ]
+            },
+            {
+              "name": "footer",
+              "isFolder": true,
+              "items": [
+                { "name": "footer.css", "isFolder": false },
+                { "name": "footer.js.css", "isFolder": false }
+              ]
+            }
+          ]
+        },
         { "name": "App.js", "isFolder": false },
         { "name": "App.css", "isFolder": false },
         { "name": "index.js", "isFolder": false },
